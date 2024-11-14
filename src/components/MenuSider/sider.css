@@ -1,0 +1,16 @@
+.ant-menu .ant-menu-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.menu-sider{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.ant-menu-item-selected{
+    background-color: #4f6f52 !important;
+    color: #fff !important;
+}

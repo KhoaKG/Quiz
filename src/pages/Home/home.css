@@ -1,0 +1,71 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url(../../images//nenhome.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 1150px;
+    height: 900px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px -124px 151px 19px rgba(243,245,226,1);
+    -moz-box-shadow: 2px -124px 151px 19px rgba(243,245,226,1);
+    box-shadow: 2px -124px 151px 19px rgba(243,245,226,1);
+}
+
+.home-content .inner-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.home-content .inner-threejs{
+    height: 100%;
+    width: 100%;
+    margin-top: 121px;
+    margin-right: 76px;
+}
+
+@media (max-width: 1380px){
+    .home-content{
+        width: 950px;
+        height: 700px;
+
+    }
+    .home-content .inner-threejs{
+        margin-top: 50px;
+        margin-right: 76px;
+    }
+}
+
+@media (max-width: 1164px){
+    .home-content{
+        width: 750px;
+        height: 500px;
+
+    }
+    .home-content .inner-threejs{
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 925px){
+    .home-content{
+        width: 550px;
+        height: 300px;
+
+    }
+    .home-content .inner-threejs{
+        margin-top: 0;
+        margin-right: 10px;
+    }
+}
